@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width:600px;
+            height:600px;
+            border:1px solid;
+            background-color: lightblue;
+            display: none;
+        }
+        
+         .a > a{
+            width:200px;
+            display: block;
+            margin: 10px;
+            text-decoration: none;
+            padding: 10px;
+            background-color:lightcoral;
+            text-align: center;
+            font-size: 17px;
+            border:1px solid;
+         }  
+         .b{
+          background-color: blue;
+          border:0px;
+          padding: 8px;
+          font-size: 15px;
+          margin: 10px;
+          cursor: pointer;
+         }
+         .b:focus-within + .a{
+               display: block;
+         }
+    </style>
+</head>
+<body>
+       <button class="b"><h2>My Aadhaar</h2></button>
+     <div class="a">
+    <a href="#">Update your Adhaar card</a>
+    <a herf="#">Document Update</a>
+    <a href="#">Check Adhaar update Status</a>
+    <a href="#">Update Demographics Data & check status</a>
+    <a href="#">List of Supporting Documents for Aadhaar Enrolment & Update</a>
+    <a href="#">Enrolment & updata Forms</a>
+    <a href="#">Aadhaar Enrolment & Update Charges</a>
+    <a href="#">Aadhaar Update History</a>
+    <a href="#">Update Aadhaar at Enrolment/Update Center</a>    
+    </div>
+</div>
+</body>
+</html>
